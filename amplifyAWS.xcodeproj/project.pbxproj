@@ -11,6 +11,9 @@
 		7C5CD80426383D42000D76D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5CD80326383D42000D76D4 /* ContentView.swift */; };
 		7C5CD80626383D45000D76D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5CD80526383D45000D76D4 /* Assets.xcassets */; };
 		7C5CD80926383D45000D76D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5CD80826383D45000D76D4 /* Preview Assets.xcassets */; };
+		7C5CD81426383DA8000D76D4 /* AddAmico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5CD81126383DA8000D76D4 /* AddAmico.swift */; };
+		7C5CD81526383DA8000D76D4 /* AmicoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5CD81226383DA8000D76D4 /* AmicoList.swift */; };
+		7C5CD81626383DA8000D76D4 /* AmicoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5CD81326383DA8000D76D4 /* AmicoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		7C5CD80526383D45000D76D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C5CD80826383D45000D76D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C5CD80A26383D45000D76D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C5CD81126383DA8000D76D4 /* AddAmico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAmico.swift; sourceTree = "<group>"; };
+		7C5CD81226383DA8000D76D4 /* AmicoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmicoList.swift; sourceTree = "<group>"; };
+		7C5CD81326383DA8000D76D4 /* AmicoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmicoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				7C5CD80126383D42000D76D4 /* amplifyAWSApp.swift */,
+				7C5CD81126383DA8000D76D4 /* AddAmico.swift */,
+				7C5CD81226383DA8000D76D4 /* AmicoList.swift */,
+				7C5CD81326383DA8000D76D4 /* AmicoStore.swift */,
 				7C5CD80326383D42000D76D4 /* ContentView.swift */,
 				7C5CD80526383D45000D76D4 /* Assets.xcassets */,
 				7C5CD80A26383D45000D76D4 /* Info.plist */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C5CD81426383DA8000D76D4 /* AddAmico.swift in Sources */,
+				7C5CD81626383DA8000D76D4 /* AmicoStore.swift in Sources */,
 				7C5CD80426383D42000D76D4 /* ContentView.swift in Sources */,
 				7C5CD80226383D42000D76D4 /* amplifyAWSApp.swift in Sources */,
+				7C5CD81526383DA8000D76D4 /* AmicoList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
